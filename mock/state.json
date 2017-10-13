@@ -1,0 +1,49 @@
+{
+  "apps": [
+      {
+        "title": "商品详情",
+        "children": [
+              {
+                  "id": "",
+                  "com": "text",
+                  "items": {
+                    "fontSize":"12",
+                     "value":"1212",
+                     "color":"#ff0000"
+                  }
+              },
+              {
+                  "id": "",
+                  "com": "video",
+                  "items":{
+                      "value":"https://zdcq.v.netease.com/2017/0331/c89de7c3cc4b7ff36f2db1cacb0304d9qt.mp4",
+                      "danmuList": [{
+                        "text": "第 1s 出现的弹幕",
+                        "color": "#ff0000",
+                        "time": 1
+                      },
+                      {
+                        "text": "第 3s 出现的弹幕",
+                        "color": "#ff00ff",
+                        "time": 3
+                      }]
+                  }
+              }
+          ]
+      },
+      {
+          "title": "商品列表2",
+          "children": [
+              {
+                  "id": "",
+                  "com": "text",
+                  "items": {
+                    "fontSize":"12",
+                     "value":"212sadhasjdhashduahs",
+                     "color":"#ff0000"
+                  }
+              }
+          ]
+      }
+  ]
+}

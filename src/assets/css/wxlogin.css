@@ -1,0 +1,13 @@
+body{margin: 0;}
+.impowerBox .qrcode {width: 208px;padding: 5px; margin-top: 10px;}
+.impowerBox .title {display: none;}
+.impowerBox .info {width: 220px;}
+.impowerBox .status{text-align: center;}
+.impowerBox .status_succ,
+.impowerBox .status_fail{position: relative; padding: 5px 0; padding-left: 40px;}
+.impowerBox .status_succ p,
+.impowerBox .status_fail p{font-size: 12px;}
+.status_succ .status_icon,
+.status_fail .status_icon{position: absolute;left: 0;top: 2px;}
+.status_succ .status_txt,
+.status_fail .status_txt{text-align: left;}

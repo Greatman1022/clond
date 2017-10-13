@@ -1,0 +1,153 @@
+/*left*/
+.side-left{
+  width: 200px;
+  height: 100%;
+  background: #eaeaea;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.cur{
+  color: #f00;
+}
+/*stage*/
+.phone-box{
+  width: 375px;
+  height: 667px;
+  box-sizing: border-box;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -333px 0 0 -187px;
+}
+.stage{
+  border: 1px solid #000;
+  position: relative;
+  z-index: 9999;
+  background: #fff;
+  height: 100%;
+}
+.handler{
+  position: absolute;
+  width: 40px;
+  left: 50%;
+  margin-left: 200px;
+  top: 50%;
+}
+.handler a{
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 40px;
+  color: #333;
+  background: #eaaeae;
+  text-decoration: none;
+}
+.flip-list-move {
+  //transition: transform 0.5s;
+}
+
+.no-move {
+  transition: transform 0s;
+}
+
+.ghost {
+  opacity: .5;
+  background: #C8EBFB;
+}
+
+.list-group {
+  min-height: 20px;
+}
+
+.list-group-item {
+  cursor: move;
+}
+.modal{
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,.65);
+  top: 0;
+  left: 0;
+}
+.wx-video{
+  width: 100% !important;
+}
+.wx-video,.wx-text{
+  position: relative;
+}
+.selected{
+  border: 1px solid #00f;
+}
+.close{
+  display: none;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  width: 30px;
+  background: #fff;
+  color: #000;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 2;
+}
+.selected .close{
+  display: block;
+}
+/*right*/
+.side-right{
+  width: 300px;
+  height: 100%;
+  background: #eaeaea;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.ui-item{
+  margin: 20px 0;
+}
+.handler{
+  position: absolute;
+  width: 40px;
+  left: 50%;
+  margin-left: 200px;
+  top: 50%;
+}
+.handler a{
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 40px;
+  color: #333;
+  background: #eaaeae;
+  text-decoration: none;
+}
+.components ul{
+  font-size: 0;
+  text-align:left;
+}
+.components li{
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  border: 1px solid #ddd;
+  font-size: 16px;
+  color: #000;
+  background: #fff;
+  text-align: center;
+  line-height: 100px;
+  margin:10px;
+}
+.components li.active{
+  border: 1px solid blue;
+}

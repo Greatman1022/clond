@@ -1,0 +1,79 @@
+// export const CHANGESTATE = 'CHANGESTATE'
+/* header */
+export const CHANGENAV = 'CHANGENAV'
+export const SHOWNAV = 'SHOWNAV'
+export const TYPENUM = 'TYPENUM'
+export const CHANGEREG = 'CHANGEREG'
+export const ROUTEACTIVE = 'ROUTEACTIVE'
+
+export const ISNEWGOODS = 'ISNEWGOODS'
+export const FORGETPASSVISIBLE = 'FORGETPASSVISIBLE'
+
+/* ordermanage */
+export const ISORDERDETAIL = 'ISORDERDETAIL'
+export const ORDERID = 'ORDERID'
+
+/* editor */
+export const ACTIVECOMINDEX = 'ACTIVECOMINDEX'
+export const ACTIVECOM = 'ACTIVECOM'
+export const CONFIGCOM = 'CONFIGCOM'
+
+/* common */
+export const ISEDITOR = 'ISEDITOR'
+export const ISACTIVE = 'ISACTIVE'
+export const USERINFO = 'USERINFO'
+export const LOGINDIALOG = 'LOGINDIALOG'
+
+/* newmake */
+export const GETSCENE = 'GETSCENE'
+export const GETINDUSTRY = 'GETINDUSTRY'
+export const GETCAROUSELS = 'GETCAROUSELS'
+// export const GETPROLIST = 'GETPROLIST'
+
+/* content */
+export const CATALOGS = 'CATALOGS'
+export const CONTEXTUSERTYPE = 'CONTEXTUSERTYPE'
+export const PRODUCTBYCATALOGID = 'PRODUCTBYCATALOGID'
+export const GOODSID = 'GOODSID'
+export const TEMPLATEFLAG = 'TEMPLATEFLAG'
+export const TEMPLATEID = 'TEMPLATEID'
+export const AGENTID = 'AGENTID'
+
+/* usermanage */
+export const GETUSERLIST = 'GETUSERLIST'
+export const GETDELUSER = 'GETDELUSER'
+export const GETUSERGROUP = 'GETUSERGROUP'
+export const GETDELUSERGROUP = 'GETDELUSERGROUP'
+export const GETMODIFYUSERGROUP = 'GETMODIFYUSERGROUP'
+export const GETADDUSERGRUOP = 'GETADDUSERGRUOP'
+export const GETMOVEBATCHUSERGROUP = 'GETMOVEBATCHUSERGROUP'
+
+/* miniprograms */
+export const GETDEALLIST = 'GETDEALLIST'
+export const GETMINILIST = 'GETMINILIST'
+export const GETAGENTSUBACCOUNT = 'GETAGENTSUBACCOUNT'
+export const GETAGENTPAY = 'GETAGENTPAY'
+
+/* backstagemanage */
+// export const GETAPPID = 'GETAPPID'
+export const GETAPPDETAIL = 'GETAPPDETAIL'
+
+/* baseconf */
+export const UPDATEMCHID = 'UPDATEMCHID'
+export const UPDATEPAYKEY = 'UPDATEPAYKEY'
+export const UPDATECLIENT = 'UPDATECLIENT'
+export const GETWXAPP = 'GETWXAPP'
+export const GETMINIAPP = 'GETMINIAPP'
+export const GETISCHOOSED = 'GETISCHOOSED'
+export const GETSAVESUCCESSVISIBLE = 'GETSAVESUCCESSVISIBLE'
+export const GETLOADFAILVISIBLE = 'GETLOADFAILVISIBLE'
+export const GETBINDAPPLETVISIBLE = 'GETBINDAPPLETVISIBLE'
+export const GETSECONDSAVEVISIBLE = 'GETSECONDSAVEVISIBLE'
+
+/* agent */
+export const STOREAPPID = 'STOREAPPID'
+export const STOREORRDERID = 'STOREORRDERID'
+
+/* 服务器状态 */
+export const GETSERVERSTATUS = 'GETSERVERSTATUS'
+
